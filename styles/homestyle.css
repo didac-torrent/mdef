@@ -78,13 +78,13 @@
     right: 0; 
     width: 100px; 
     text-align:right;
-    padding: 45px 20px 5px 20px;
+    padding: 45px 30px 5px 20px;
     font-weight: bold;
     font-size: 18px;
 }
 
 .div-z {
-    padding: 45px 20px 5px 20px;
+    padding: 45px 90px 5px 20px;
     font-size: 60px;
     font-weight: bold;
     position: fixed;
@@ -103,7 +103,9 @@ footer {
     width: 100%;
 } 
 
-
+img {
+    width: 100%;
+}
 
 
 
