@@ -84,6 +84,27 @@
     font-size: 18px;
 }
 
+.div-z {
+    color: rgb(250, 250, 250);
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+.div-u {
+    color: rgb(250, 250, 250);
+    padding: 100px 370px 5px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    text-align: right;
+    right: 0;
+    top: 200px;
+
+}
+
 footer {
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -93,7 +114,7 @@ footer {
     width: 100%;
 } 
 
-div.text {
+div.content {
     position: absolute;
     width: 700px;
     left: 350px;
@@ -103,8 +124,8 @@ div.text {
 div.img1 {
     position: absolute;
     width: 300px;
-    right: 270px;
-    top: 395px;
+    right: -20px;
+    top: 330px;
 }
 
 div.img3 {
