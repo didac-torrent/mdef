@@ -72,6 +72,10 @@
             color: white;
             background-color: rgb(46, 46, 46);
         }
+       
+    a#hype {
+        text-decoration: underline;
+    }
 
 .div-y {
     position: fixed; 
@@ -119,13 +123,6 @@ div.content {
     width: 700px;
     left: 350px;
     top: 70px;
-}
-
-div.img1 {
-    position: absolute;
-    width: 300px;
-    right: -20px;
-    top: 330px;
 }
 
 div.img3 {
