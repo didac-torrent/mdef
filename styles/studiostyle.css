@@ -166,3 +166,7 @@ span {
 p#two {
     width: 390px;
 }
+
+div.diagram {
+    padding: 0px 0px 0px 40px;
+}
