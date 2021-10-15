@@ -157,9 +157,10 @@ p#two {
 }
 
 div.contact {
-    position: absolute;
-    top: 240px;
-    left: 570px;
+    margin: auto;
+    padding: 240px 0px 0px 0px;
+    width: 250px;
+    justify-content: center;
 }
 
 p.contact {
