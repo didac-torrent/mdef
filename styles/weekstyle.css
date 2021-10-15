@@ -2,7 +2,7 @@
     cursor: cell;
  }
 
-.index {
+body {
     background-color: rgb(97, 97, 97);
     font-family: 'Courier New', Courier, monospace;
     color: white;

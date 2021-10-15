@@ -2,13 +2,17 @@
     cursor: cell;
  }
 
-.index {
+body {
     background-color: rgb(250, 250, 250);
     font-family: 'Courier New', Courier, monospace;
     color: rgb(46, 46, 46);
     margin: 0;
     padding: 0;
     zoom: 100%;
+}
+
+section.index {
+     z-index: 2;
 }
 
 .div-x {
@@ -118,22 +122,27 @@ footer {
     width: 100%;
 } 
 
+section.content {
+    z-index: 1;
+}
+
 div.content {
-    position: absolute;
+    margin: auto;
     width: 700px;
-    left: 350px;
-    top: 70px;
+    padding: 50px 0px 0px 0px;
+}
+
+div.beside {
+    display: flex;
+    flex-direction: row;
 }
 
 div.img1 {
-    position: absolute;
-    right: -100px;
-    top: 185px;
+    margin: 20px -80px 0px 30px; 
 }
 
 div.img2 {
-    position: relative;
-    right: 140px;
+    margin: 0px 0px 0px -150px;
 
 }
 
@@ -161,10 +170,6 @@ h3 {
 
 span {
     background-color: rgb(46, 46, 46);
-}
-
-p#two {
-    width: 390px;
 }
 
 div.diagram {

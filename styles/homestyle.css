@@ -2,12 +2,13 @@
     cursor: cell;
  }
 
-.index {
+body {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     margin: 0;
     padding: 0;
     zoom: 100%;
+
 }
 
 .div-x {
