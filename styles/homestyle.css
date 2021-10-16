@@ -11,6 +11,10 @@ body {
 
 }
 
+section.index {
+    z-index: 2;
+}
+
 .div-x {
     position: fixed;
     padding: 20px 20px 5px 20px;
@@ -104,11 +108,10 @@ footer {
     width: 100%;
 } 
 
+section.content {
+    z-index: 1;
+}
+
 img {
     width: 100%;
 }
-
-
-
-
-

@@ -101,18 +101,6 @@ section.index {
     bottom: 20px;
 }
 
-.div-u {
-    color: rgb(46, 46, 46);
-    padding: 100px 370px 5px 20px;
-    font-size: 40px;
-    font-weight: bold;
-    position: fixed;
-    text-align: right;
-    right: 0;
-    top: 200px;
-
-}
-
 footer {
     color: rgb(46, 46, 46);
     font-size: 14px;
@@ -124,6 +112,16 @@ footer {
 
 section.content {
     z-index: 1;
+}
+
+.div-u {
+    color: rgb(46, 46, 46);
+    margin: auto;
+    width: 700px;
+    padding: 300px 0px 0px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 div.content {

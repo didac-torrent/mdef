@@ -11,6 +11,10 @@ body {
     zoom: 100%;
 }
 
+section.index {
+    z-index: 2;
+}
+
 .div-x {
     position: fixed;
     padding: 20px 20px 5px 20px;
@@ -82,7 +86,7 @@ body {
     top: 0; 
     right: 0; 
     width: 100px; 
-    text-align:right;
+    text-align: right;
     padding: 45px 30px 5px 20px;
     font-weight: bold;
     font-size: 18px;
@@ -97,18 +101,6 @@ body {
     bottom: 20px;
 }
 
-.div-u {
-    color: rgb(250, 250, 250);
-    padding: 100px 370px 5px 20px;
-    font-size: 40px;
-    font-weight: bold;
-    position: fixed;
-    text-align: right;
-    right: 0;
-    top: 200px;
-
-}
-
 footer {
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -118,17 +110,28 @@ footer {
     width: 100%;
 } 
 
-div.content {
-    position: absolute;
+section.content {
+    z-index: 1;
+}
+
+.div-u {
+    color: rgb(250, 250, 250);
+    margin: auto;
     width: 700px;
-    left: 350px;
-    top: 70px;
+    padding: 300px 0px 0px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.content {
+    margin: auto;
+    width: 700px;
+    padding: 50px 0px 0px 0px;
 }
 
 div.img3 {
-    position: relative;
-    bottom: 20px;
-    right: 80px;
+    margin: 0px 0px 20px -80px;
 }
 
 h2 {
