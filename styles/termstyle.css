@@ -148,9 +148,11 @@ h2:hover {
 }
 
 .relfectionsgrid {
+    margin: auto;
+    width: 700px;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
+    padding: 20px 0px 0px 0px;
 }
 
 .text {
