@@ -198,3 +198,13 @@ div.icons {
 img#icon {
     filter: invert(1);
 }
+
+div.below {
+    display: flex;
+    flex-direction: column;
+}
+
+div.img5 {
+    padding: 0px 0px 0px 30px;
+    margin: 0px -100px 0px 0px;
+}
