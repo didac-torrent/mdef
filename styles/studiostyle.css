@@ -154,6 +154,10 @@ div.img4 {
     margin: 0px 0px 0px -100px;
 }
 
+div.img6 {
+    margin: 0px -100px 0px 30px; 
+}
+
 h2 {
     color: rgb(46, 46, 46);
     font-size: 28px;
