@@ -214,6 +214,11 @@ div.img6 {
     margin: 0px 30px 0px -100px;
 }
 
+div.img7 {
+    padding: 0px 0px 0px 30px;
+    margin: -20px -100px 0px 0px;
+}
+
 div.diagram {
     padding: 0px 0px 0px 40px;
 }
