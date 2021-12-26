@@ -219,6 +219,17 @@ div.img7 {
     margin: -20px -100px 0px 0px;
 }
 
+div.img8 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 150px;
+}
+
+div.img9 {
+    padding: 0px 20px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
 div.diagram {
     padding: 0px 0px 0px 40px;
 }
