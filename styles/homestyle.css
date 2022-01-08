@@ -49,8 +49,8 @@ section.index {
         }
 
         a#about:active, #about:hover{
-            color: white;
-            background-color: rgb(46, 46, 46);
+            color: rgb(46, 46, 46);
+            background-color: white;
         }
         a#t1:active, #t1:hover{
             color: white;
@@ -65,16 +65,16 @@ section.index {
             background-color: rgb(139, 209, 124);
         }
         a#fab:active, #fab:hover{
-            color: white;
-            background-color: rgb(46, 46, 46);
+            color: rgb(46, 46, 46);
+            background-color: white;
         }
         a#pro:active, #pro:hover{
-            color: white;
-            background-color: rgb(46, 46, 46);
+            color: rgb(46, 46, 46);
+            background-color: white;
         }
         a#cont:active, #cont:hover{
-            color: white;
-            background-color: rgb(46, 46, 46);
+            color: rgb(46, 46, 46);
+            background-color: white;
         }
 
 .div-y {
