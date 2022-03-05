@@ -243,3 +243,8 @@ div.img10 {
 div.diagram {
     padding: 0px 0px 0px 40px;
 }
+
+model-viewer {
+    width: 700px;
+    height: 600px;
+}
