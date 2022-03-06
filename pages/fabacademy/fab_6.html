@@ -2,6 +2,7 @@
     <head>
 
         <title>/dídac_mdef</title>
+        <link rel="shortcut icon" type="image/png" href="../images/small-profile.png"/>
 
         <link rel="stylesheet" href="../../styles/weekstyle.css">
 
@@ -39,8 +40,68 @@
 
         <section class="content">
             <div class="content">
+                <h2>/electronics_design</h2>
+
+                <p><strong>(08_march_2022)</strong><br><br>
+                    Electronics design was the chosen topic for FabAcademy this week. After talking about electronic 
+                    production in regards to PCB fabrication and welding components, this week we talked about the 
+                    components themselves. <br><br>
+
+                    During the session, we went through many different components, starting from the resistors, then 
+                    talking about capacitors, diodes, oscillators, transistors and regulators. For each component, 
+                    they explained the main function of it, the way to use it in a hypothetical circuit and also the 
+                    range of variations for one component depending on the use. <br><br>
+
+                    After this, Edu and Josep introduced some EDA software, programmes that are used to create circuits 
+                    and PCBs from scratch. Some of them are KiCAD, Autodesk Eagle and Fritzing. We were also told about 
+                    a website where we could find any kind of component called <a id="hype" target="_blank" href="https://www.digikey.es/en">Digikey</a>. <br><br>
+
+                    <h3><span>.designing_a_shield</span></h3><br><br>
+                    For this week's task, we had to design our own circuit built in a shield style, meaning that all 
+                    the components would be welded to the PCB that at the same time would be attached to the mainboard 
+                    (in my case an Arduino UNO because I don't have the ESP32) without any cable.  <br><br>
+
+                    For my PCB, I decided to create a circuit that would allow me to modulate the tone of a speaker 
+                    using a potentiometer and also display with 5 LEDs if the tone of the speaker is high or low. For 
+                    that, I needed these components: <br><br>
+
+                    - 5 LEDs  <br>
+                    - 5 100 Ohm resistors for the LEDs <br>
+                    - 1 speaker <br>
+                    - 1 potentiometer <br>
+                    - 1 button (to turn ON or OFF the whole system) <br>
+                    - 1 10K Ohm pullup resistor  <br><br>
+
+                    I started designing the circuit in Eeschema, placing all the components imported from the different 
+                    libraries in a circuit form, and linking those components to the tags defined on the Arduino UNO 
+                    board. This is how it looked after placing all the components: <br><br>
+
+                    <div class="img4">
+                    <img src="../../images/pcb1.png" width="900px">
+                    </div> <br><br>
+
+                    After this, I changed to the PCB Layout Editor, inverted the Arduino UNO board, and started putting 
+                    all the components into place, making sure they didn't disturb each other. I tried to design the 
+                    PCB in a pretty way, not just sketchy since it really makes the difference. I had some issues when 
+                    I was placing the potentiometer because the racks were colliding, so I had to create two 0 Ohm 
+                    resistors in order to create some space for the necessary rack. Also, I followed the tutorial and 
+                    changed the thickness of the lines in order to make it possible to mill, and tried not to draw
+                    90 degrees connections. This is the result of the 
+                    PCB design: <br><br> <br>
+
+                    <img src="../../images/pcb2.png" width="700px"> <br><br><br>
+
+                    Finally, I exported the design to an SVG file and opened it on Inkscape to see the final result. 
+                    This is how the PCB should be milled if we were planning to fabricate it: <br><br> <br>
+
+                    <img src="../../images/pcb3.png" width="700px"> <br><br>
+
+                    All the files I created for this PCB are available to download by going to my Github profile or 
+                    clicking <a id="hype" target="_blank" href="https://github.com/didac-torrent/fabacademy/tree/main/FILES/PCB%20Shield">here</a>.
+
+                </p>
                 
-            </div>
+            </div> <br><br><br><br>
 
         </section>
 
