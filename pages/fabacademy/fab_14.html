@@ -62,14 +62,24 @@
                     The task this time consisted of sending a message between two microcontrollers. In my case, I used 
                     two ESP8266 and programmed them to get an input with a sensor from one controller and then send it 
                     to the other one to activate an output device. To do so, I followed a tutorial since I had no 
-                    knowledge at all of how to do it with an ESP8266, and this is the code I used: <br><br>
+                    knowledge at all of how to do it with an ESP8266. You can find the tutorial <a id="hype" href="https://siytek.com/communication-between-two-esp8266/" 
+                    target="_blank">here</a>. <br><br>
 
-                    ///// picture of the code <br><br>
+                    To communicate between each other, I had to use a protocol called Wifi-UPD, where you create a code
+                    where one of the ESP8266 boards is used a server and the other one used as a client. With the server you
+                    create an IP that will be used by the client to connect and then send the packages. The code also has
+                    a buffer to retain the packages sent from the client to the server. Finally, as you can see in this video below, this is how both devices communicated. As you can see, 
+                    when I send inputs from the sensor (button) automatically the output activates (buzzer and LED): <br><br><br>
 
-                    Finally, as you can see in this video below, this is how both devices communicated. As you can see, 
-                    when I send inputs from the sensor automatically the output activates: <br><br>
+                    <div class="img4">
+                        <iframe src="https://player.vimeo.com/video/709210247?h=44ea1b2b7e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                        width="900" height="495" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen title="ESP8266 to ESP8266 communication"></iframe>
+                    </div> <br><br>
 
-                    ///// video of devices communicating <br><br>
+                    Of course, the thing that I built is really basic and doesn't have much function, but using this protocol
+                    I can play with different sensors and get outputs remotely that could be transformed into Processing. The 
+                    same code can be used in many other applications just by changing the void loop. <br><br>
                 </p>
                 
             </div> <br><br>
